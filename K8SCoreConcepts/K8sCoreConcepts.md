@@ -1075,14 +1075,11 @@ specify anything that Kubernetes expects to be under metadata.
  
 
 metadata:
+  name: myapp-end
+  labels:
+      app: myapp
+      type: front-end
 
-name: myapp-end
-
-labels:
-
-app: myapp
-
-type: front-end
 
  
 
