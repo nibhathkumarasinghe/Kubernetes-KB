@@ -24,6 +24,7 @@ alt="A screenshot of a computer AI-generated content may be incorrect." />
  
 
 imagespec - specification in how image should be built
+
 runtimespec - define how any container runtime should be developed
 
 Rkt and other container runtimes that adhered to the OCI standards were
