@@ -5,15 +5,9 @@ containers in an automated fashion so that you can easily deploy
 instances of your application and enable communication between different
 services within your application.
 
- 
-
 **Docker vs ContainerD**
 
- 
-
-ContainerD is a container runtime engine like rkt
-
- 
+ContainerD is a container runtime engine like rkt 
 
 Docker and Kubernetes was initially tightly coupled together. With
 Kubernetes introduced ***container runtime interfaces(CRI)***, any
