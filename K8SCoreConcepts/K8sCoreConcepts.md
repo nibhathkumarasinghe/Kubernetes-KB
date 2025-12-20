@@ -15,13 +15,10 @@ vendor allows to work with Kubernetes as long as adhere with ***Open
 Container Initiative(OCI)***.
 
  
-
 **Open Container Initiative(OCI)**
 
- 
-
 <img src="./images/media/image1.png"
-style="width:3.18333in;height:2.13333in"
+style="width:4.18333in;height:2.13333in"
 alt="A screenshot of a computer AI-generated content may be incorrect." />
 
  
