@@ -189,12 +189,7 @@ alt="A black and white text box AI-generated content may be incorrect." />
 
  
 
- 
-
 **Kubernetes Cluster Architecture**
-
- 
-
  
 
 <img src="./images/media/image5.jpeg"
