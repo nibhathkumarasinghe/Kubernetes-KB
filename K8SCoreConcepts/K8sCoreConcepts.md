@@ -15,7 +15,7 @@ vendor allows to work with Kubernetes as long as adhere with ***Open
 Container Initiative(OCI)***.
 
  
- **Open Container Initiative(OCI)**
+**Open Container Initiative(OCI)**
 
 <img src="./images/media/image1.png"
 style="width:4.18333in;height:3.13333in"
@@ -24,20 +24,13 @@ alt="A screenshot of a computer AI-generated content may be incorrect." />
  
 
 imagespec - specification in how image should be built
-
 runtimespec - define how any container runtime should be developed
-
- 
 
 Rkt and other container runtimes that adhered to the OCI standards were
 now supported as container runtime for Kubernetes via CRI
 
- 
-
 However, Docker wasn’t built to support CRI standards as it was
 developed before CRI.
-
- 
 
 ***Dockershim*** is a way to support docker outside the CRI and it is
 CRI compliant layer between the Kubelet and Docker daemon. Dockershim
@@ -47,14 +40,10 @@ continues to function after Kubernetes version 1.24 releases because
 docker also adhere imagespec standards in OCI. ContainerD uses as
 container runtime after Kubernetes release 1.24.
 
- 
-
 Docker isn’t just a container runtime alone. Docker consists with
 multiple tools such as CLI, API, BUILD, VOLUMES, AUTH, SECURITY,
 container runtime is called RUNC and the daemon manages RUNC that is
 called containerD.
-
- 
 
 ContainerD is CRI compatible. Hence, containerD can be used separate
 from Docker with Kubernetes. You can install the containerD alone as
@@ -63,11 +52,8 @@ container runtime.
 You can install ContainerD without having docker itself and run with
 following CLI utilities to connect any CRI compatible container runtime.
 
- 
-
 **CLI -ctr**
 
- 
 
 \- Use only for debugging the container
 
