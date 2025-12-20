@@ -1,4 +1,4 @@
-# Kubernetes - Core Concepts (H1)
+# Kubernetes - Core Concepts
 
 The purpose of Kubernetes is to host your applications in the form of
 containers in an automated fashion so that you can easily deploy
