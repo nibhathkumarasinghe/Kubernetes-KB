@@ -1,5 +1,4 @@
-**Helm Basics**
-
+# Helm Basics
  
 
 **What is Helm**
