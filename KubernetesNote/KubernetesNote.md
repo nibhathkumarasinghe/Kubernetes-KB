@@ -1,6 +1,6 @@
 # Kubernetes Note
 
-Kubernetes - Core Concepts
+**Kubernetes - Core Concepts**
 
  
 
